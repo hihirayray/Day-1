@@ -1,0 +1,256 @@
+{"kind":"deck","id":"pr/mb3iio","name":"Deck"}
+{"kind":"layout","layoutId":"01110cbc-0443-4bcc-86bb-0b61e3f935a2","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"2c66a650-da51-40fa-af85-ca31eaef6cbf","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/njtcr4","slide":1,"title":"VIBECODING LAB · ADVANCED TRACK","textShapes":4}
+{"kind":"textbox","id":"sh/jqlszip4","slide":1,"text":"VIBECODING LAB · ADVANCED TRACK","textPreview":"VIBECODING LAB · ADVANCED TRACK","textChars":31,"textLines":1,"bbox":[48,40,620,28]}
+{"kind":"textbox","id":"sh/krut83qp","slide":1,"text":"Build an AI coding\nagent workflow","textPreview":"Build an AI coding | agent workflow","textChars":33,"textLines":2,"bbox":[48,175,980,210]}
+{"kind":"shape","id":"sh/5s3a187a","slide":1,"bbox":[48,472,1180,0]}
+{"kind":"textbox","id":"sh/a1sr2t8n","slide":1,"text":"Inspect → plan → implement → debug → review → defend","textPreview":"Inspect → plan → implement → debug → review → defend","textChars":52,"textLines":1,"bbox":[48,506,980,52]}
+{"kind":"textbox","id":"sh/v21svy9s","slide":1,"text":"Taskroom starter project","textPreview":"Taskroom starter project","textChars":24,"textLines":1,"bbox":[48,626,500,28]}
+{"kind":"notes","id":"nt/njtcr4","slide":1,"text":"Timing: 2 minutes\n\nOpen by setting the expectation: this is not a prompting contest. The output is working software plus evidence that the team understood and challenged what the AI produced.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/1ilbb1","slide":2,"title":"TODAY’S STANDARD","textShapes":5}
+{"kind":"textbox","id":"sh/hwjmdkfu","slide":2,"text":"TODAY’S STANDARD","textPreview":"TODAY’S STANDARD","textChars":16,"textLines":1,"bbox":[48,42,400,26]}
+{"kind":"textbox","id":"sh/ut8325wj","slide":2,"text":"Fast code is not the goal.","textPreview":"Fast code is not the goal.","textChars":26,"textLines":1,"bbox":[48,150,1110,90]}
+{"kind":"textbox","id":"sh/vuh4baxo","slide":2,"text":"Controlled, explainable, tested code is.","textPreview":"Controlled, explainable, tested code is.","textChars":40,"textLines":1,"bbox":[48,270,1090,150]}
+{"kind":"textbox","id":"sh/87ql0ved","slide":2,"text":"You will be rewarded for finding subtle failure—not for shipping the flashiest feature.","textPreview":"You will be rewarded for finding subtle failure—not for shipping the flashiest feature.","textChars":87,"textLines":1,"bbox":[48,546,1040,72]}
+{"kind":"textbox","id":"sh/t8zm90fy","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"notes","id":"nt/1ilbb1","slide":2,"text":"Timing: 2 minutes\n\nAsk for a show of hands: who has accepted AI-generated code because the demo worked once? Use that tension to frame the lab around control and evidence.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/uohz2i","slide":3,"title":"THE CODEBASE","textShapes":9}
+{"kind":"textbox","id":"sh/7m547mx4","slide":3,"text":"THE CODEBASE","textPreview":"THE CODEBASE","textChars":12,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/snel07yp","slide":3,"text":"Your starting point is intentionally incomplete","textPreview":"Your starting point is intentionally incomplete","textChars":47,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/t8nm9cfa","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"textbox","id":"sh/fap4bmx0","slide":3,"text":"Already works","textPreview":"Already works","textChars":13,"textLines":1,"bbox":[826,180,330,36]}
+{"kind":"shape","id":"sh/gbyl4ryl","slide":3,"bbox":[826,239,13,13]}
+{"kind":"textbox","id":"sh/hc7mdwf6","slide":3,"text":"Create a task","textPreview":"Create a task","textChars":13,"textLines":1,"bbox":[856,232,330,48]}
+{"kind":"shape","id":"sh/2dg361gr","slide":3,"bbox":[826,291,13,13]}
+{"kind":"textbox","id":"sh/3ep4f6xc","slide":3,"text":"Delete a task","textPreview":"Delete a task","textChars":13,"textLines":1,"bbox":[856,284,330,48]}
+{"kind":"shape","id":"sh/bm5gr698","slide":3,"bbox":[826,343,13,13]}
+{"kind":"textbox","id":"sh/alwfy18n","slide":3,"text":"Validate task titles","textPreview":"Validate task titles","textChars":20,"textLines":1,"bbox":[856,336,330,48]}
+{"kind":"textbox","id":"sh/xonytgre","slide":3,"text":"Missing on purpose","textPreview":"Missing on purpose","textChars":18,"textLines":1,"bbox":[826,418,330,36]}
+{"kind":"textbox","id":"sh/wnex0bqt","slide":3,"text":"Priority · deadlines · filters\npersistence · overdue states","textPreview":"Priority · deadlines · filters | persistence · overdue states","textChars":59,"textLines":2,"bbox":[826,466,350,96]}
+{"kind":"image","id":"im/vmlo7ahg","slide":3,"name":"","geometry":"roundRect","alt":"Taskroom student task dashboard starter app","bbox":[48,168,730,455]}
+{"kind":"notes","id":"nt/uohz2i","slide":3,"text":"Timing: 3 minutes\n\nPoint participants to README.md, not to individual source files. Their first job is discovering the architecture. Confirm the baseline checks pass before teams begin.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/jhy00k","slide":4,"title":"TODAY’S RUN","textShapes":25}
+{"kind":"textbox","id":"sh/gze14byt","slide":4,"text":"TODAY’S RUN","textPreview":"TODAY’S RUN","textChars":11,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/fy5kvqh8","slide":4,"text":"The work moves through seven engineering gates","textPreview":"The work moves through seven engineering gates","textChars":46,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/edwj2lgn","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"shape","id":"sh/p47210za","slide":4,"bbox":[72,354,1136,0]}
+{"kind":"shape","id":"sh/o3e18vyp","slide":4,"bbox":[72,345,18,18]}
+{"kind":"textbox","id":"sh/325kzqhk","slide":4,"text":"10 min","textPreview":"10 min","textChars":6,"textLines":1,"bbox":[72,286,130,28]}
+{"kind":"textbox","id":"sh/21wj6lgz","slide":4,"text":"Inspect","textPreview":"Inspect","textChars":7,"textLines":1,"bbox":[72,390,140,34]}
+{"kind":"textbox","id":"sh/583ipwz6","slide":4,"text":"Architecture map","textPreview":"Architecture map","textChars":16,"textLines":1,"bbox":[72,438,138,70]}
+{"kind":"shape","id":"sh/k7u1wril","slide":4,"bbox":[234,345,18,18]}
+{"kind":"textbox","id":"sh/ytofa1s7","slide":4,"text":"10 min","textPreview":"10 min","textChars":6,"textLines":1,"bbox":[234,286,130,28]}
+{"kind":"textbox","id":"sh/zuxg3m9s","slide":4,"text":"Plan","textPreview":"Plan","textChars":4,"textLines":1,"bbox":[234,390,140,34]}
+{"kind":"textbox","id":"sh/kv6hcrad","slide":4,"text":"Tests + assumptions","textPreview":"Tests + assumptions","textChars":19,"textLines":1,"bbox":[234,438,138,70]}
+{"kind":"shape","id":"sh/lwfy5wry","slide":4,"bbox":[396,345,18,18]}
+{"kind":"textbox","id":"sh/mxoze1s3","slide":4,"text":"25 min","textPreview":"25 min","textChars":6,"textLines":1,"bbox":[396,286,130,28]}
+{"kind":"textbox","id":"sh/7yxg769o","slide":4,"text":"Build","textPreview":"Build","textChars":5,"textLines":1,"bbox":[396,390,140,34]}
+{"kind":"textbox","id":"sh/8zqhgba9","slide":4,"text":"Level 1 feature","textPreview":"Level 1 feature","textChars":15,"textLines":1,"bbox":[396,438,138,70]}
+{"kind":"shape","id":"sh/90zy9gru","slide":4,"bbox":[558,345,18,18]}
+{"kind":"textbox","id":"sh/u18zilsf","slide":4,"text":"15 min","textPreview":"15 min","textChars":6,"textLines":1,"bbox":[558,286,130,28]}
+{"kind":"textbox","id":"sh/vmhgbq90","slide":4,"text":"Debug","textPreview":"Debug","textChars":5,"textLines":1,"bbox":[558,390,140,34]}
+{"kind":"textbox","id":"sh/rqhgzqps","slide":4,"text":"Injected failure","textPreview":"Injected failure","textChars":16,"textLines":1,"bbox":[558,438,138,70]}
+{"kind":"shape","id":"sh/6p8fqlon","slide":4,"bbox":[720,345,18,18]}
+{"kind":"textbox","id":"sh/tsjy1g7y","slide":4,"text":"15 min","textPreview":"15 min","textChars":6,"textLines":1,"bbox":[720,286,130,28]}
+{"kind":"textbox","id":"sh/sraxsv6d","slide":4,"text":"AI review","textPreview":"AI review","textChars":9,"textLines":1,"bbox":[720,390,140,34]}
+{"kind":"textbox","id":"sh/j2hwv6pw","slide":4,"text":"Fresh context","textPreview":"Fresh context","textChars":13,"textLines":1,"bbox":[720,438,138,70]}
+{"kind":"shape","id":"sh/i18fm1ob","slide":4,"bbox":[882,345,18,18]}
+{"kind":"textbox","id":"sh/5ozyxg72","slide":4,"text":"10 min","textPreview":"10 min","textChars":6,"textLines":1,"bbox":[882,286,130,28]}
+{"kind":"textbox","id":"sh/43qxob6h","slide":4,"text":"Human","textPreview":"Human","textChars":5,"textLines":1,"bbox":[882,390,140,34]}
+{"kind":"textbox","id":"sh/vyxwr6p0","slide":4,"text":"Find the miss","textPreview":"Find the miss","textChars":13,"textLines":1,"bbox":[882,438,138,70]}
+{"kind":"shape","id":"sh/uxofi1of","slide":4,"bbox":[1044,345,18,18]}
+{"kind":"textbox","id":"sh/03mds7mx","slide":4,"text":"15 min","textPreview":"15 min","textChars":6,"textLines":1,"bbox":[1044,286,130,28]}
+{"kind":"textbox","id":"sh/l4vu1sni","slide":4,"text":"Demo","textPreview":"Demo","textChars":4,"textLines":1,"bbox":[1044,390,140,34]}
+{"kind":"textbox","id":"sh/y14vqx47","slide":4,"text":"Defend choices","textPreview":"Defend choices","textChars":14,"textLines":1,"bbox":[1044,438,138,70]}
+{"kind":"textbox","id":"sh/z2dcz25s","slide":4,"text":"Plan before code. Review after tests. Human approval stays last.","textPreview":"Plan before code. Review after tests. Human approval stays last.","textChars":64,"textLines":1,"bbox":[72,576,1000,52]}
+{"kind":"notes","id":"nt/jhy00k","slide":4,"text":"Timing: 2 minutes\n\nKeep the clock visible. At minute 45, stop feature work and begin debugging even if some teams are incomplete. The constraint is part of the exercise.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/ae89ai","slide":5,"title":"GATE 1 · RECONNAISSANCE","textShapes":12}
+{"kind":"textbox","id":"sh/j6p4v618","slide":5,"text":"GATE 1 · RECONNAISSANCE","textPreview":"GATE 1 · RECONNAISSANCE","textChars":23,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/k7ylob2t","slide":5,"text":"Inspect the system before proposing changes","textPreview":"Inspect the system before proposing changes","textChars":43,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/l87mxgjy","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"textbox","id":"sh/6tg3qlkj","slide":5,"text":"Ask your agent to explain","textPreview":"Ask your agent to explain","textChars":25,"textLines":1,"bbox":[48,176,430,40]}
+{"kind":"shape","id":"sh/7up4zq14","slide":5,"bbox":[48,245,13,13]}
+{"kind":"textbox","id":"sh/8vylsb2p","slide":5,"text":"Runtime architecture","textPreview":"Runtime architecture","textChars":20,"textLines":1,"bbox":[78,238,470,58]}
+{"kind":"shape","id":"sh/tw7m1gja","slide":5,"bbox":[48,307,13,13]}
+{"kind":"textbox","id":"sh/2dc3ehkf","slide":5,"text":"State and data flow","textPreview":"State and data flow","textChars":19,"textLines":1,"bbox":[78,300,470,58]}
+{"kind":"shape","id":"sh/ny5knm10","slide":5,"bbox":[48,369,13,13]}
+{"kind":"textbox","id":"sh/3q147e1o","slide":5,"text":"Existing domain rules","textPreview":"Existing domain rules","textChars":21,"textLines":1,"bbox":[78,362,470,58]}
+{"kind":"shape","id":"sh/ip83e903","slide":5,"bbox":[48,431,13,13]}
+{"kind":"textbox","id":"sh/5sjm9oje","slide":5,"text":"Test strategy","textPreview":"Test strategy","textChars":13,"textLines":1,"bbox":[78,424,470,58]}
+{"kind":"shape","id":"sh/4ralgji9","slide":5,"bbox":[48,493,13,13]}
+{"kind":"textbox","id":"sh/vmhk3e1c","slide":5,"text":"Smallest likely change surface","textPreview":"Smallest likely change surface","textChars":30,"textLines":1,"bbox":[78,486,470,58]}
+{"kind":"shape","id":"sh/ul83a90r","slide":5,"bbox":[664,172,544,388]}
+{"kind":"textbox","id":"sh/hoz254ji","slide":5,"text":"Your artifact","textPreview":"Your artifact","textChars":13,"textLines":1,"bbox":[704,210,420,38]}
+{"kind":"textbox","id":"sh/gnqlczix","slide":5,"text":"An architecture explanation with exact file references, risky areas, and explicit uncertainty.","textPreview":"An architecture explanation with exact file references, risky areas, and explicit uncertainty.","textChars":94,"textLines":1,"bbox":[704,274,430,112]}
+{"kind":"shape","id":"sh/7yxkzu1g","slide":5,"bbox":[704,420,420,0]}
+{"kind":"textbox","id":"sh/6xo36p0v","slide":5,"text":"No edits yet.","textPreview":"No edits yet.","textChars":13,"textLines":1,"bbox":[704,458,420,48]}
+{"kind":"notes","id":"nt/ae89ai","slide":5,"text":"Timing: 10 minutes\n\nDo not accept a tour that only lists filenames. Ask teams to explain which component owns state and where domain validation lives. Require cited files.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/aajqez","slide":6,"title":"GATE 2 · PLANNING","textShapes":13}
+{"kind":"textbox","id":"sh/m1wryp4v","slide":6,"text":"GATE 2 · PLANNING","textPreview":"GATE 2 · PLANNING","textChars":17,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/94nat4n6","slide":6,"text":"A useful plan names decisions—not just steps","textPreview":"A useful plan names decisions—not just steps","textChars":44,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/o3e90zml","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"textbox","id":"sh/zy5snu54","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[48,196,70,54]}
+{"kind":"textbox","id":"sh/edcrup4j","slide":6,"text":"Data","textPreview":"Data","textChars":4,"textLines":1,"bbox":[48,270,330,40]}
+{"kind":"textbox","id":"sh/10nap4na","slide":6,"text":"Priority type\nDeadline representation\nDefaults for old tasks","textPreview":"Priority type | Deadline representation | Defaults for old tasks","textChars":60,"textLines":3,"bbox":[48,332,330,154]}
+{"kind":"textbox","id":"sh/0ze9wzmp","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[450,196,70,54]}
+{"kind":"textbox","id":"sh/jupszelo","slide":6,"text":"Behavior","textPreview":"Behavior","textChars":8,"textLines":1,"bbox":[450,270,330,40]}
+{"kind":"textbox","id":"sh/ytgbq943","slide":6,"text":"Filter semantics\nOverdue definition\nEmpty and error states","textPreview":"Filter semantics | Overdue definition | Empty and error states","textChars":58,"textLines":3,"bbox":[450,332,330,154]}
+{"kind":"textbox","id":"sh/4jm14ji5","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[852,196,70,54]}
+{"kind":"textbox","id":"sh/5kvixojq","slide":6,"text":"Evidence","textPreview":"Evidence","textChars":8,"textLines":1,"bbox":[852,270,330,40]}
+{"kind":"textbox","id":"sh/ih4j2t0f","slide":6,"text":"Unit tests\nFailure modes\nRegression coverage","textPreview":"Unit tests | Failure modes | Regression coverage","textChars":44,"textLines":3,"bbox":[852,332,330,154]}
+{"kind":"shape","id":"sh/jid0vy1k","slide":6,"bbox":[48,548,1160,72]}
+{"kind":"textbox","id":"sh/wfm10j29","slide":6,"text":"The plan must include what happens when storage is missing, corrupt, or slow.","textPreview":"The plan must include what happens when storage is missing, corrupt, or slow.","textChars":77,"textLines":1,"bbox":[78,568,1090,38]}
+{"kind":"notes","id":"nt/aajqez","slide":6,"text":"Timing: 10 minutes\n\nBefore allowing edits, check that each team has made a default-priority decision and identified a persistence failure mode. A list of files without tradeoffs is not a plan.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/923g3f","slide":7,"title":"BUILD · FEATURE","textShapes":12}
+{"kind":"textbox","id":"sh/il4zuh47","slide":7,"text":"BUILD · FEATURE","textPreview":"BUILD · FEATURE","textChars":15,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/5ovipwny","slide":7,"text":"Level 1: make task urgency visible and usable","textPreview":"Level 1: make task urgency visible and usable","textChars":45,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/4nmhwrmd","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"textbox","id":"sh/vid0jm5g","slide":7,"text":"Required behavior","textPreview":"Required behavior","textChars":17,"textLines":1,"bbox":[48,178,420,36]}
+{"kind":"shape","id":"sh/ahkzqhov","slide":7,"bbox":[48,245,13,13]}
+{"kind":"textbox","id":"sh/hkvilcnm","slide":7,"text":"Low / medium / high priority","textPreview":"Low / medium / high priority","textChars":28,"textLines":1,"bbox":[78,238,490,59]}
+{"kind":"shape","id":"sh/wjmhsrm1","slide":7,"bbox":[48,308,13,13]}
+{"kind":"textbox","id":"sh/fex0v650","slide":7,"text":"Optional deadline","textPreview":"Optional deadline","textChars":17,"textLines":1,"bbox":[78,301,490,59]}
+{"kind":"shape","id":"sh/edoj214f","slide":7,"bbox":[48,371,13,13]}
+{"kind":"textbox","id":"sh/o36pcje5","slide":7,"text":"Filter by priority","textPreview":"Filter by priority","textChars":18,"textLines":1,"bbox":[78,364,490,59]}
+{"kind":"shape","id":"sh/94fq54vq","slide":7,"bbox":[48,434,13,13]}
+{"kind":"textbox","id":"sh/m147a9wf","slide":7,"text":"Clear overdue state","textPreview":"Clear overdue state","textChars":19,"textLines":1,"bbox":[78,427,490,59]}
+{"kind":"shape","id":"sh/n2d83ed0","slide":7,"bbox":[48,497,13,13]}
+{"kind":"textbox","id":"sh/0zmp8ze9","slide":7,"text":"Tests for new domain behavior","textPreview":"Tests for new domain behavior","textChars":29,"textLines":1,"bbox":[78,490,490,59]}
+{"kind":"textbox","id":"sh/10vq14vu","slide":7,"text":"The trap","textPreview":"The trap","textChars":8,"textLines":1,"bbox":[710,178,420,36]}
+{"kind":"textbox","id":"sh/ex476pw3","slide":7,"text":"A feature can look right and still be wrong at the boundaries.","textPreview":"A feature can look right and still be wrong at the boundaries.","textChars":62,"textLines":1,"bbox":[710,240,450,112]}
+{"kind":"shape","id":"sh/zyd8zudo","slide":7,"bbox":[710,392,430,0]}
+{"kind":"textbox","id":"sh/cvmp4zed","slide":7,"text":"Probe empty values, long titles, deadline equality, timezone assumptions, and deleting while filtered.","textPreview":"Probe empty values, long titles, deadline equality, timezone assumptions, and deleting while filtered.","textChars":102,"textLines":1,"bbox":[710,430,450,132]}
+{"kind":"notes","id":"nt/923g3f","slide":7,"text":"Timing: Part of 25-minute build\n\nEncourage a thin vertical slice before styling. If teams disagree about overdue semantics, require them to document the chosen definition and test it.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/meet4a","slide":8,"title":"BUILD · ARCHITECTURE","textShapes":12}
+{"kind":"textbox","id":"sh/edkjmxob","slide":8,"text":"BUILD · ARCHITECTURE","textPreview":"BUILD · ARCHITECTURE","textChars":20,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/10vixc72","slide":8,"text":"Level 2: persistence is a failure-mode exercise","textPreview":"Level 2: persistence is a failure-mode exercise","textChars":47,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/0zm1o76h","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"textbox","id":"sh/n2d0zmp8","slide":8,"text":"Choose one","textPreview":"Choose one","textChars":10,"textLines":1,"bbox":[48,176,250,34]}
+{"kind":"textbox","id":"sh/m14jqhon","slide":8,"text":"Local storage","textPreview":"Local storage","textChars":13,"textLines":1,"bbox":[48,236,300,34]}
+{"kind":"textbox","id":"sh/94vi1w7y","slide":8,"text":"Fastest route. Handle parse errors and stale schema.","textPreview":"Fastest route. Handle parse errors and stale schema.","textChars":52,"textLines":1,"bbox":[366,236,500,62]}
+{"kind":"shape","id":"sh/o3m1sr6d","slide":8,"bbox":[48,320,812,0]}
+{"kind":"textbox","id":"sh/36t0nipo","slide":8,"text":"Local API","textPreview":"Local API","textChars":9,"textLines":1,"bbox":[48,360,300,34]}
+{"kind":"textbox","id":"sh/250zudo3","slide":8,"text":"Define async loading, writes, and server failure.","textPreview":"Define async loading, writes, and server failure.","textChars":49,"textLines":1,"bbox":[366,360,500,62]}
+{"kind":"shape","id":"sh/wjetsje5","slide":8,"bbox":[48,444,812,0]}
+{"kind":"textbox","id":"sh/xknulofa","slide":8,"text":"Hosted database","textPreview":"Hosted database","textChars":15,"textLines":1,"bbox":[48,484,300,34]}
+{"kind":"textbox","id":"sh/ahcbq9wz","slide":8,"text":"Handle credentials, latency, and unavailable network.","textPreview":"Handle credentials, latency, and unavailable network.","textChars":53,"textLines":1,"bbox":[366,484,500,62]}
+{"kind":"shape","id":"sh/bi5sjexk","slide":8,"bbox":[48,568,812,0]}
+{"kind":"shape","id":"sh/knetw3e1","slide":8,"bbox":[930,176,278,414]}
+{"kind":"textbox","id":"sh/l8nup8fm","slide":8,"text":"Refresh is\nnot enough.","textPreview":"Refresh is | not enough.","textChars":22,"textLines":2,"bbox":[962,220,220,100]}
+{"kind":"textbox","id":"sh/ylwbutwv","slide":8,"text":"Explain data ownership, migration, and degraded behavior.","textPreview":"Explain data ownership, migration, and degraded behavior.","textChars":57,"textLines":1,"bbox":[962,360,214,156]}
+{"kind":"notes","id":"nt/meet4a","slide":8,"text":"Timing: Part of 25-minute build\n\nLevel 2 is stretch work if time is short. Local storage is acceptable, but teams must still define corruption and migration behavior. Avoid letting hosted setup consume the whole lab.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/di7erf","slide":9,"title":"BUILD · AGENTIC WORKFLOW","textShapes":11}
+{"kind":"textbox","id":"sh/36hgnqhk","slide":9,"text":"BUILD · AGENTIC WORKFLOW","textPreview":"BUILD · AGENTIC WORKFLOW","textChars":24,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/o7qxgvy5","slide":9,"text":"Level 3: separate roles so review has teeth","textPreview":"Level 3: separate roles so review has teeth","textChars":43,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/p8zyp0zq","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"shape","id":"sh/ehofalg3","slide":9,"bbox":[197,326,48,24]}
+{"kind":"shape","id":"sh/fixgj6ho","slide":9,"bbox":[381,326,48,24]}
+{"kind":"shape","id":"sh/gj6xcby9","slide":9,"bbox":[565,326,48,24]}
+{"kind":"shape","id":"sh/1kfylgzu","slide":9,"bbox":[749,326,48,24]}
+{"kind":"shape","id":"sh/ydszm5g7","slide":9,"bbox":[933,326,48,24]}
+{"kind":"shape","id":"sh/ze1gvahs","slide":9,"bbox":[62,270,136,136]}
+{"kind":"textbox","id":"sh/faxgfu1c","slide":9,"text":"Human","textPreview":"Human","textChars":5,"textLines":1,"bbox":[74,308,112,60]}
+{"kind":"shape","id":"sh/e94zmp0r","slide":9,"bbox":[246,270,136,136]}
+{"kind":"textbox","id":"sh/1cfyh4ji","slide":9,"text":"Planner","textPreview":"Planner","textChars":7,"textLines":1,"bbox":[258,308,112,60]}
+{"kind":"shape","id":"sh/0b6hozix","slide":9,"bbox":[430,270,136,136]}
+{"kind":"textbox","id":"sh/nexgje1o","slide":9,"text":"Implement","textPreview":"Implement","textChars":9,"textLines":1,"bbox":[442,308,112,60]}
+{"kind":"shape","id":"sh/2dozq903","slide":9,"bbox":[614,270,136,136]}
+{"kind":"textbox","id":"sh/p0fyl4ju","slide":9,"text":"Test / lint","textPreview":"Test / lint","textChars":11,"textLines":1,"bbox":[626,308,112,60]}
+{"kind":"shape","id":"sh/oz6hszi9","slide":9,"bbox":[798,270,136,136]}
+{"kind":"textbox","id":"sh/b2hgne1k","slide":9,"text":"Reviewer","textPreview":"Reviewer","textChars":8,"textLines":1,"bbox":[810,308,112,60]}
+{"kind":"shape","id":"sh/a1ozu90z","slide":9,"bbox":[982,270,136,136]}
+{"kind":"textbox","id":"sh/69cb2hoj","slide":9,"text":"Fix + approve","textPreview":"Fix + approve","textChars":13,"textLines":1,"bbox":[994,308,112,60]}
+{"kind":"textbox","id":"sh/7alsbmp4","slide":9,"text":"Fresh context","textPreview":"Fresh context","textChars":13,"textLines":1,"bbox":[806,438,120,26]}
+{"kind":"textbox","id":"sh/8but476p","slide":9,"text":"Give the reviewer requirements + diff + check output—not the implementer’s reasoning.","textPreview":"Give the reviewer requirements + diff + check output—not the implementer’s reasoning.","textChars":85,"textLines":1,"bbox":[164,526,950,68]}
+{"kind":"notes","id":"nt/di7erf","slide":9,"text":"Timing: 2 minutes\n\nTeams may use any AI coding tool. The process requirement is role separation. A second tab with copied reasoning is weaker than a reviewer receiving only evidence.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/vqmpvo","slide":10,"title":"THE NON-NEGOTIABLE RULE","textShapes":15}
+{"kind":"textbox","id":"sh/3at0fupc","slide":10,"text":"THE NON-NEGOTIABLE RULE","textPreview":"THE NON-NEGOTIABLE RULE","textChars":23,"textLines":1,"bbox":[48,42,480,26]}
+{"kind":"textbox","id":"sh/ob2hoz6x","slide":10,"text":"Do not accept code you cannot defend.","textPreview":"Do not accept code you cannot defend.","textChars":37,"textLines":1,"bbox":[48,92,1120,82]}
+{"kind":"textbox","id":"sh/pcvih47i","slide":10,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[48,226,54,32]}
+{"kind":"textbox","id":"sh/elkzipov","slide":10,"text":"Why is this file changing?","textPreview":"Why is this file changing?","textChars":26,"textLines":1,"bbox":[112,218,500,58]}
+{"kind":"textbox","id":"sh/fmt0bapg","slide":10,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[658,226,54,32]}
+{"kind":"textbox","id":"sh/g72hkf6l","slide":10,"text":"What does this function do?","textPreview":"What does this function do?","textChars":27,"textLines":1,"bbox":[722,218,500,58]}
+{"kind":"textbox","id":"sh/18bidk76","slide":10,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[48,346,54,32]}
+{"kind":"textbox","id":"sh/yh4zu9oz","slide":10,"text":"What assumptions did the agent make?","textPreview":"What assumptions did the agent make?","textChars":36,"textLines":1,"bbox":[112,338,500,58]}
+{"kind":"textbox","id":"sh/zid0nepk","slide":10,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[658,346,54,32]}
+{"kind":"textbox","id":"sh/b69c3650","slide":10,"text":"How could this break?","textPreview":"How could this break?","textChars":21,"textLines":1,"bbox":[722,338,500,58]}
+{"kind":"textbox","id":"sh/a50va14f","slide":10,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[48,466,54,32]}
+{"kind":"textbox","id":"sh/x8ru5gn6","slide":10,"text":"Is there unnecessary complexity?","textPreview":"Is there unnecessary complexity?","textChars":32,"textLines":1,"bbox":[112,458,500,58]}
+{"kind":"textbox","id":"sh/c7idcbml","slide":10,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[658,466,54,32]}
+{"kind":"textbox","id":"sh/zatw7q5w","slide":10,"text":"How would you test it?","textPreview":"How would you test it?","textChars":22,"textLines":1,"bbox":[722,458,500,58]}
+{"kind":"textbox","id":"sh/y9kvel4r","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"notes","id":"nt/vqmpvo","slide":10,"text":"Timing: Use throughout\n\nKeep this slide visible during implementation. Randomly ask a teammate—not only the person driving—to answer one question about a major change.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/he9n96","slide":11,"title":"GATE 4 · DEBUGGING","textShapes":17}
+{"kind":"textbox","id":"sh/jeh832h4","slide":11,"text":"GATE 4 · DEBUGGING","textPreview":"GATE 4 · DEBUGGING","textChars":18,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/4fq9w7yp","slide":11,"text":"Deleting one task can remove another","textPreview":"Deleting one task can remove another","textChars":36,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/5gza5czu","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"shape","id":"sh/a9orqx07","slide":11,"bbox":[48,174,1160,166]}
+{"kind":"textbox","id":"sh/vax8z2hs","slide":11,"text":"Reported sequence","textPreview":"Reported sequence","textChars":17,"textLines":1,"bbox":[82,204,300,32]}
+{"kind":"textbox","id":"sh/wb69s7yd","slide":11,"text":"Delete a starter task → add a new task → later delete the new task","textPreview":"Delete a starter task → add a new task → later delete the new task","textChars":66,"textLines":1,"bbox":[82,254,1040,48]}
+{"kind":"textbox","id":"sh/xczq1czy","slide":11,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[48,404,46,44]}
+{"kind":"textbox","id":"sh/mlormx0b","slide":11,"text":"Reproduce","textPreview":"Reproduce","textChars":9,"textLines":1,"bbox":[102,404,210,36]}
+{"kind":"textbox","id":"sh/n6x8vihw","slide":11,"text":"Do not trust the wording.","textPreview":"Do not trust the wording.","textChars":25,"textLines":1,"bbox":[102,458,202,62]}
+{"kind":"textbox","id":"sh/vu9wzel8","slide":11,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[338,404,46,44]}
+{"kind":"textbox","id":"sh/at0fq94n","slide":11,"text":"Collect evidence","textPreview":"Collect evidence","textChars":16,"textLines":1,"bbox":[392,404,210,36]}
+{"kind":"textbox","id":"sh/hwre1o3e","slide":11,"text":"Inspect identity and state.","textPreview":"Inspect identity and state.","textChars":27,"textLines":1,"bbox":[392,458,202,62]}
+{"kind":"textbox","id":"sh/wvixsjmt","slide":11,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[628,404,46,44]}
+{"kind":"textbox","id":"sh/jy9w3ylk","slide":11,"text":"Explain root cause","textPreview":"Explain root cause","textChars":18,"textLines":1,"bbox":[682,404,210,36]}
+{"kind":"textbox","id":"sh/ix0futkz","slide":11,"text":"Name the broken invariant.","textPreview":"Name the broken invariant.","textChars":26,"textLines":1,"bbox":[682,458,202,62]}
+{"kind":"textbox","id":"sh/50be583a","slide":11,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[918,404,46,44]}
+{"kind":"textbox","id":"sh/4zixw325","slide":11,"text":"Add regression test","textPreview":"Add regression test","textChars":19,"textLines":1,"bbox":[972,404,210,36]}
+{"kind":"textbox","id":"sh/z2pwrul0","slide":11,"text":"Then fix the code.","textPreview":"Then fix the code.","textChars":18,"textLines":1,"bbox":[972,458,202,62]}
+{"kind":"notes","id":"nt/he9n96","slide":11,"text":"Timing: 15 minutes\n\nApply facilitator/duplicate-id-bug.patch before showing this slide. The injected generator uses tasks.length + 1. After deletion, IDs can be reused; duplicate IDs cause React key confusion and ID-based deletion removes both matching records. Reveal hints only as needed: inspect state after each operation; compare identity with list size; try delete → create → delete. Require a regression test before the fix.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/lzzgyi","slide":12,"title":"GATE 5 · AI REVIEW","textShapes":15}
+{"kind":"textbox","id":"sh/3u1wzqho","slide":12,"text":"GATE 5 · AI REVIEW","textPreview":"GATE 5 · AI REVIEW","textChars":18,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/ovud8vi9","slide":12,"text":"The second AI reviews evidence, not intent","textPreview":"The second AI reviews evidence, not intent","textChars":42,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/pw3e10zu","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"textbox","id":"sh/qxcva50f","slide":12,"text":"Give the reviewer","textPreview":"Give the reviewer","textChars":17,"textLines":1,"bbox":[48,182,470,36]}
+{"kind":"shape","id":"sh/bylw3ah0","slide":12,"bbox":[48,249,13,13]}
+{"kind":"textbox","id":"sh/czudcvil","slide":12,"text":"Requirements","textPreview":"Requirements","textChars":12,"textLines":1,"bbox":[78,242,420,62]}
+{"kind":"shape","id":"sh/x03e50zq","slide":12,"bbox":[48,315,13,13]}
+{"kind":"textbox","id":"sh/618vy10b","slide":12,"text":"Final diff","textPreview":"Final diff","textChars":10,"textLines":1,"bbox":[78,308,420,62]}
+{"kind":"shape","id":"sh/r2hcr6hg","slide":12,"bbox":[48,381,13,13]}
+{"kind":"textbox","id":"sh/721wnal4","slide":12,"text":"Test + lint output","textPreview":"Test + lint output","textChars":18,"textLines":1,"bbox":[78,374,420,62]}
+{"kind":"shape","id":"sh/61sfu5kz","slide":12,"bbox":[48,447,13,13]}
+{"kind":"textbox","id":"sh/t4jepk3a","slide":12,"text":"Known assumptions","textPreview":"Known assumptions","textChars":17,"textLines":1,"bbox":[78,440,420,62]}
+{"kind":"textbox","id":"sh/83axwf2p","slide":12,"text":"Ask it to hunt","textPreview":"Ask it to hunt","textChars":14,"textLines":1,"bbox":[668,182,470,36]}
+{"kind":"shape","id":"sh/zyhwjal8","slide":12,"bbox":[668,249,13,13]}
+{"kind":"textbox","id":"sh/yd8fq5kn","slide":12,"text":"Correctness gaps","textPreview":"Correctness gaps","textChars":16,"textLines":1,"bbox":[698,242,470,56]}
+{"kind":"shape","id":"sh/l0jel03e","slide":12,"bbox":[668,309,13,13]}
+{"kind":"textbox","id":"sh/kzqxsv2t","slide":12,"text":"Date / timezone errors","textPreview":"Date / timezone errors","textChars":22,"textLines":1,"bbox":[698,302,470,56]}
+{"kind":"shape","id":"sh/bahwfqlw","slide":12,"bbox":[668,369,13,13]}
+{"kind":"textbox","id":"sh/a98vmlkr","slide":12,"text":"Accessibility regressions","textPreview":"Accessibility regressions","textChars":25,"textLines":1,"bbox":[698,362,470,56]}
+{"kind":"shape","id":"sh/e5ofyloj","slide":12,"bbox":[668,429,13,13]}
+{"kind":"textbox","id":"sh/f6xgrq54","slide":12,"text":"Data loss and stale state","textPreview":"Data loss and stale state","textChars":25,"textLines":1,"bbox":[698,422,470,56]}
+{"kind":"shape","id":"sh/076x0vmp","slide":12,"bbox":[668,489,13,13]}
+{"kind":"textbox","id":"sh/18fyt0nu","slide":12,"text":"Weak tests or needless abstraction","textPreview":"Weak tests or needless abstraction","textChars":34,"textLines":1,"bbox":[698,482,470,56]}
+{"kind":"textbox","id":"sh/298f2l4f","slide":12,"text":"Every finding gets fixed—or rejected with a reason.","textPreview":"Every finding gets fixed—or rejected with a reason.","textChars":51,"textLines":1,"bbox":[48,592,1080,42]}
+{"kind":"notes","id":"nt/lzzgyi","slide":12,"text":"Timing: 15 minutes\n\nRequire a fresh AI context. Teams should write dispositions in LAB_NOTES.md. A confident review with no cited lines is not enough.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/ktyd91","slide":13,"title":"GATES 6–7 · HUMAN REVIEW + DEMO","textShapes":14}
+{"kind":"textbox","id":"sh/m14325or","slide":13,"text":"GATES 6–7 · HUMAN REVIEW + DEMO","textPreview":"GATES 6–7 · HUMAN REVIEW + DEMO","textChars":31,"textLines":1,"bbox":[48,34,480,26]}
+{"kind":"textbox","id":"sh/9ovmx07i","slide":13,"text":"Close the AI tabs. Now find what both missed.","textPreview":"Close the AI tabs. Now find what both missed.","textChars":45,"textLines":1,"bbox":[48,72,1120,74]}
+{"kind":"textbox","id":"sh/8nml4f6x","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"shape","id":"sh/vqx4zapo","slide":13,"bbox":[48,174,530,374]}
+{"kind":"textbox","id":"sh/up4n65o3","slide":13,"text":"Human-only review","textPreview":"Human-only review","textChars":17,"textLines":1,"bbox":[82,210,430,38]}
+{"kind":"textbox","id":"sh/hsfm1k7e","slide":13,"text":"Read the diff. Exercise edge cases. Challenge defaults. Look for needless abstractions and behavior no test proves.","textPreview":"Read the diff. Exercise edge cases. Challenge defaults. Look for needless abstractions and behavior no test proves.","textChars":115,"textLines":1,"bbox":[82,276,422,166]}
+{"kind":"textbox","id":"sh/wr658f69","slide":13,"text":"Record one issue both AIs missed.","textPreview":"Record one issue both AIs missed.","textChars":33,"textLines":1,"bbox":[82,466,422,44]}
+{"kind":"textbox","id":"sh/but4nqp4","slide":13,"text":"Demo in 3 moves","textPreview":"Demo in 3 moves","textChars":15,"textLines":1,"bbox":[664,186,410,38]}
+{"kind":"textbox","id":"sh/atk3ul8j","slide":13,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[664,258,48,48]}
+{"kind":"textbox","id":"sh/4jqpszi5","slide":13,"text":"Show the feature","textPreview":"Show the feature","textChars":16,"textLines":1,"bbox":[734,260,420,48]}
+{"kind":"textbox","id":"sh/5kz6l4jq","slide":13,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[664,362,48,48]}
+{"kind":"textbox","id":"sh/ih87qp0z","slide":13,"text":"Recreate the failure","textPreview":"Recreate the failure","textChars":20,"textLines":1,"bbox":[734,364,420,48]}
+{"kind":"textbox","id":"sh/jihoju1k","slide":13,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[664,466,48,48]}
+{"kind":"textbox","id":"sh/s7apwji1","slide":13,"text":"Defend the final design","textPreview":"Defend the final design","textChars":23,"textLines":1,"bbox":[734,468,420,48]}
+{"kind":"textbox","id":"sh/t8j6p4jm","slide":13,"text":"Tests passing is the floor—not the presentation.","textPreview":"Tests passing is the floor—not the presentation.","textChars":48,"textLines":1,"bbox":[664,570,500,42]}
+{"kind":"notes","id":"nt/ktyd91","slide":13,"text":"Timing: 10 minutes review + 10–15 minutes demos\n\nFor the human review, ask teams to ignore both AI sessions for ten minutes. For demos, cut setup narration quickly: feature, failure, engineering judgment.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}
+{"kind":"slide","id":"sl/pc48s3","slide":14,"title":"FINAL LIGHTNING ROUND","textShapes":6}
+{"kind":"textbox","id":"sh/vm9grmxs","slide":14,"text":"FINAL LIGHTNING ROUND","textPreview":"FINAL LIGHTNING ROUND","textChars":21,"textLines":1,"bbox":[48,42,500,28]}
+{"kind":"textbox","id":"sh/wnih0ryd","slide":14,"text":"What was the most convincing mistake your AI made?","textPreview":"What was the most convincing mistake your AI made?","textChars":50,"textLines":1,"bbox":[48,142,1120,180]}
+{"kind":"shape","id":"sh/xorytwfy","slide":14,"bbox":[48,404,170,94]}
+{"kind":"textbox","id":"sh/mxgfuhgb","slide":14,"text":"60 sec","textPreview":"60 sec","textChars":6,"textLines":1,"bbox":[48,424,170,48]}
+{"kind":"textbox","id":"sh/ny9gnmxg","slide":14,"text":"Win on subtlety, specificity, and how you detected it—not presentation polish.","textPreview":"Win on subtlety, specificity, and how you detected it—not presentation polish.","textChars":78,"textLines":1,"bbox":[270,408,860,94]}
+{"kind":"shape","id":"sh/8zixwry1","slide":14,"bbox":[48,566,1160,0]}
+{"kind":"textbox","id":"sh/90rypwfm","slide":14,"text":"Advanced vibecoding = control, evaluate, orchestrate.","textPreview":"Advanced vibecoding = control, evaluate, orchestrate.","textChars":53,"textLines":1,"bbox":[48,596,980,44]}
+{"kind":"textbox","id":"sh/ytgfqhgz","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1174,674,54,20]}
+{"kind":"notes","id":"nt/pc48s3","slide":14,"text":"Timing: 5–10 minutes\n\nGive each team 60 seconds. Reward the most subtle, convincing failure and the strongest detection method. Close by reinforcing the permanent split: beginners build with AI; advanced participants control, evaluate, and orchestrate AI.\n\n[Sources]\n- Internal workshop brief and local Taskroom codebase; no external sources."}

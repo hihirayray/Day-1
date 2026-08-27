@@ -1,0 +1,5 @@
+Communication job: By the end, advanced vibecoding participants should use AI coding tools as controlled engineering collaborators because speed without understanding, testing, and review is not reliable software work.
+
+Narrative arc: reframe the objective -> establish baseline -> inspect -> plan -> build levels -> orchestrate -> debug -> review -> defend -> close with the most convincing AI mistake.
+
+Visual system: Codex Grid-inspired white canvas, black typography, thin gray rules, pale panels, and a single lime/forest accent drawn from the Taskroom app. Adjacent slide silhouettes vary between sparse type, split layout, timelines, three-column comparisons, and one workflow diagram.

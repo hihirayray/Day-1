@@ -1,0 +1,3 @@
+Deck content is derived entirely from the user-provided workshop brief and the local Taskroom codebase.
+No external claims or externally sourced assets are used.
+The Taskroom screenshot was captured from the local app on 2026-08-26.

@@ -1,0 +1,12 @@
+diff --git a/app/hooks/useTaskBoard.ts b/app/hooks/useTaskBoard.ts
+--- a/app/hooks/useTaskBoard.ts
++++ b/app/hooks/useTaskBoard.ts
+@@ -11,7 +11,7 @@ export function useTaskBoard(initialTasks: Task[]) {
+   function createTask(rawTitle: string) {
+     const task: Task = {
+-      id: crypto.randomUUID(),
++      id: `task-${tasks.length + 1}`,
+       title: normalizeTitle(rawTitle),
+       course: "General",
+       createdAt: new Date().toISOString(),
+     };
